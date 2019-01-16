@@ -16,5 +16,9 @@ public class TestDAOImpl implements TestDAO {
 	public void insertUser(User user) {
 		sessionFactory.getCurrentSession().save(user);
 	}
+	
+	public void add() {
+		System.out.println("1234");
+	}
 
 }
