@@ -4,6 +4,6 @@ import com.byteslounge.spring.tx.model.User;
 
 public interface TestDAO {
 
-	void insertUser(User user, User user2);
+	void insertUser(User user, User user2 , JKJKJKJKJKs);
 
 }
