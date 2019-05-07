@@ -21,6 +21,8 @@ public class User {
 	
 	@Column(name="NAME", nullable = false)
 	private String name;
+
+	private String age;
 	
 	public int getId() {
 		return id;
