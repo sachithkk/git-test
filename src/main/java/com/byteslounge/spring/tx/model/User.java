@@ -17,6 +17,9 @@ public class User {
 	private int id;
 	private String mail;
 	private String total;
+
+	private String car;
+	private String bus;
 	
 	@Column(name="USERNAME", nullable = false)
 	private String username;
