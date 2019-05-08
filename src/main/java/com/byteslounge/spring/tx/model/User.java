@@ -13,6 +13,7 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	Privet String vilage;
 	@Column(name="ID", nullable = false)
 	private int id;
 	private String mail;
@@ -21,6 +22,7 @@ public class User {
 	private String car;
 	private String bus;
 
+	private double taget;
 	private int amount;
 
 	public void display(){
