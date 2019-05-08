@@ -22,6 +22,10 @@ public class User {
 	private String bus;
 
 	private int amount;
+
+	public void display(){
+		System.out.println("**************");
+	}
 	
 	
 	@Column(name="USERNAME", nullable = false)
