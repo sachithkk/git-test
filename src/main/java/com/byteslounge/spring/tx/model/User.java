@@ -20,6 +20,9 @@ public class User {
 
 	private String car;
 	private String bus;
+
+	private int amount;
+	
 	
 	@Column(name="USERNAME", nullable = false)
 	private String username;
